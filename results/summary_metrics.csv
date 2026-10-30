@@ -1,0 +1,5 @@
+model_tag,sample_size,strict_raw_pass_rate,scrubbed_pass_rate,semantic_accuracy
+Qwen2.5-0.5B-FP16,100,100.0,100.0,94.0
+Qwen2.5-0.5B-INT8,100,0.0,7.0,0.0
+Qwen2.5-1.5B-FP16,100,100.0,100.0,100.0
+Qwen2.5-1.5B-INT8,100,0.0,0.0,0.0

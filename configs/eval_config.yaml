@@ -1,0 +1,22 @@
+experiment:
+  name: "formatting_drift_qwen2.5"
+  seed: 42
+  log_level: "INFO"
+
+sampling:
+  temperature: 0.0
+  top_p: 1.0
+  seed: 42
+  max_tokens: 512
+
+models:
+  - name: "Qwen-2.5-0.5B-Instruct"
+    repo: "Qwen/Qwen2.5-0.5B-Instruct-GGUF"
+    files:
+      fp16: "qwen2.5-0.5b-instruct-fp16.gguf"
+      q8_0: "qwen2.5-0.5b-instruct-q8_0.gguf"
+      q4_k_m: "qwen2.5-0.5b-instruct-q4_k_m.gguf"
+
+dataset:
+  path: "data/json_schema_eval_100.jsonl"
+  total_samples: 100

@@ -1,0 +1,18 @@
+# Core Runtime & Data Analysis
+python-dotenv>=1.0.0
+pydantic>=2.6.0,<3.0.0
+jsonschema>=4.20.0
+pandas>=2.0.0
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+pyyaml>=6.0.1
+
+# Inference Engines (Select local backend or Colab/GPU)
+llama-cpp-python>=0.2.50; extra == "cpu"
+torch>=2.1.0
+transformers>=4.38.0
+accelerate>=0.26.0
+
+# System Diagnostics & Testing
+psutil>=5.9.0
+pytest>=8.0.0

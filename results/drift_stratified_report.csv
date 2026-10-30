@@ -1,0 +1,4 @@
+Schema Tier,Count,FP16 Pass (%),INT8 Pass (%),Delta (%)
+Tier 1: Primitive Flat,35,100.0,20.0,-80.0
+Tier 2: Nested Object,35,100.0,0.0,-100.0
+Tier 3: Typed Array,30,100.0,0.0,-100.0

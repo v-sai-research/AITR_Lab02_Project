@@ -1,0 +1,3 @@
+Model,FP16 Raw Pass (%),FP16 Scrubbed Pass (%),FP16 Semantic Acc (%),INT8 Raw Pass (%),INT8 Scrubbed Pass (%),INT8 Semantic Acc (%),D_formatting (%),Z-Score,p-value,Stat. Significant
+Qwen2.5-0.5B,100.0,100.0,94.0,0.0,7.000000000000001,0.0,-93.0,-13.1845,0.0,True
+Qwen2.5-1.5B,100.0,100.0,100.0,0.0,0.0,0.0,-100.0,-14.1421,0.0,True
